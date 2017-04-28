@@ -2,7 +2,7 @@ rosshutdown
 clear all
 close all
 clc
-%% Connect to existing a ROS master (gazebo this case)
+%% Connect to an existing ROS master (gazebo this case)
 rosinit('192.168.1.6')
 
 %% Control parameters
