@@ -5,7 +5,8 @@ clc
 %% Create a ROS master in MATLAB
 rosinit
 
-%% Start the simulator
+%% Open a MATLAB simulator (provided by MATLAB)
+% RobotSimulator is required to be in the path 
 sim = RobotSimulator('emptyMap');
 
 %% Control parameters
@@ -23,6 +24,8 @@ velPub = rospublisher('/mobile_base/commands/velocity');
 
 %% Receive the latest odometry message
 odomData = odomSub.LatestMessage;
+
+% An error occurs when executed at once
 
 %% Initial calculation
 
