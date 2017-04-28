@@ -1,7 +1,7 @@
 %% Create a new ros master in MATLAB
 rosinit
 
-%% Open a MATLAB simulator
+%% Open a MATLAB simulator (provided by MATLAB)
 sim = RobotSimulator('emptyMap')
 
 %% List all topics
