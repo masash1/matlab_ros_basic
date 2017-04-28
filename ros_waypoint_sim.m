@@ -80,4 +80,3 @@ while (goalDist >= goalRadius)
 end
 disp('Goal reached within threshold!');
     
-    
